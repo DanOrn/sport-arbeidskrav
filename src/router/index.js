@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../pages/HomePage.vue'
 import ContactPage from '../pages/ContactPage.vue'
-import MoviesPage from '../pages/MoviesPage.vue'
+import SportsPage from '../pages/SportsPage.vue'
 
 const routes = [ 
     {
@@ -16,9 +16,9 @@ const routes = [
         component: ContactPage
     },
     {
-        name: "MoviesPage",
-        path: "/movies",
-        component: MoviesPage
+        name: "SportsPage",
+        path: "/sports",
+        component: SportsPage
     }
 ]; // PAUSE TIL 12:15
 
