@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3>Filmliste 2022</h3>
+        <h3>Favorittsport 2022</h3>
         <sport-item
             v-for="(sport, i) in sports" :key="i"
             :title="sport.title"
