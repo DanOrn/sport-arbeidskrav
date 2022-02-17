@@ -4,6 +4,7 @@
         <hr>
         <article>
             <h3> {{sportObject1.type}} </h3>
+            <img :src="require(`@/assets/${sportObject1.image}`)">
         </article>
     </section>
 </template>
@@ -14,7 +15,15 @@ import { reactive } from "vue"
 export default {
     setup(){
         const sportObject1 = reactive({
-            type: "Fotball"
+            
+            
+            type: "Fotball",
+            image: "fotball.png",
+
+          
+            
+           
+
         });
         return { sportObject1 }
     }
