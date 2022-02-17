@@ -1,6 +1,19 @@
 <template>
     <section>
-        <h3>Velkommen til Sportsman</h3>
+        <h3>Explore the sport types</h3>
         <hr>
     </section>
 </template>
+
+<script>
+import { reactive } from "vue"
+
+export default {
+    setup(){
+        const sportObject1 = reactive({
+            type: "Fotball"
+        });
+        return { sportObject1 }
+    }
+}
+</script>
