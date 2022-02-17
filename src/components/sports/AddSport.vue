@@ -1,6 +1,7 @@
 <template>
     <section class="mb-5">
-        <h3>Legg til ny sport</h3>
+        <h5>Legg til ny sport</h5>
+        <hr>
         <div class="mb-3">
             <label class="form-label">Tittel</label>
             <input class="form-control" v-model="title" type="text">
@@ -9,7 +10,8 @@
             <label class="form-label">Pris</label>
             <input class="form-control" v-model="price" type="text">
         </div>
-        <input class="btn btn-primary w-100" @click="addSport" type="button" value="Legg til film">
+        <input class="btn btn-success w-200" @click="addSport" type="button" value="Legg til sport">
+        <input class="btn btn-danger w-200" @click="deleteSport" type="button" value="Fjern sport">
     </section>
 </template>
 
