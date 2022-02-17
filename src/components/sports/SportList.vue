@@ -1,12 +1,15 @@
 <template>
-    <section>
-        <h3>Favorittsport 2022</h3>
+    <section class="row">
+        <article class="col">
+         <h3>Favorittsport 2022</h3>
         <sport-item
             v-for="(sport, i) in sports" :key="i"
             :image="sport.image"
             :title="sport.title"
             :description="sport.description"
         ></sport-item>
+        </article>
+
     </section>
 </template>
 

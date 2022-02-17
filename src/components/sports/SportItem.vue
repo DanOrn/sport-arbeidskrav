@@ -11,7 +11,7 @@ export default {
     props: {
         image: String,
         title: String,
-        price: String
+        description: String
     },
 
     setup(props) {

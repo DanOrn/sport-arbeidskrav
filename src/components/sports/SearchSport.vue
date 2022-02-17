@@ -1,16 +1,19 @@
 <template>
-    <section class="mb-5">
+<div class="row">
+    <section class="mb-5 col">
         <h3>Legg til ny sport</h3>
-        <div class="mb-3">
+        <div class="mb-3 col">
             <label class="form-label">Tittel</label>
             <input class="form-control" v-model="title" type="text">
         </div>
-        <div class="mb-3">
+        <div class="mb-3 col">
             <label class="form-label">Pris</label>
             <input class="form-control" v-model="price" type="text">
         </div>
         <input class="btn btn-primary w-100" @click="addSport" type="button" value="Legg til film">
     </section>
+</div>
+    
 </template>
 
 <script>
