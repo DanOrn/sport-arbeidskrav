@@ -8,13 +8,13 @@
 
 <script>
 import TheNavigation from "./components/shared/TheNavigation.vue"
-import HomePage from "./pages/HomePage.vue"
+
 
 export default {
   name: 'App',
   components: {
     TheNavigation,
-    HomePage
+   
  
   }
 }
