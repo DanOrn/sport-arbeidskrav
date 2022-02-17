@@ -3,8 +3,9 @@
         <h3>Favorittsport 2022</h3>
         <sport-item
             v-for="(sport, i) in sports" :key="i"
+            :image="sport.image"
             :title="sport.title"
-            :price="sport.price"
+            :description="sport.description"
         ></sport-item>
     </section>
 </template>
@@ -18,6 +19,7 @@ export default {
         const sports = sportService.getAll();
         return { sports }
     },
+
     components: {
         SportItem
     }
