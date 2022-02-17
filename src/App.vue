@@ -2,7 +2,7 @@
   <the-navigation></the-navigation>
   <div class="container">
     <router-view></router-view>
-    <v-if-v-bind-reactive></v-if-v-bind-reactive>
+   
   </div>
 </template>
 

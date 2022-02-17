@@ -14,17 +14,13 @@ import { reactive } from "vue"
 
 export default {
     setup(){
-        const sportObject1 = reactive({
-            
-            
-            type: "Fotball",
-            image: "fotball.png",
-
+        const sportObject1 = reactive (
+           {type: "Fotball", image: "fotball.png"},
+            {type: "Klatring",image: "klatring.png"},
+            {type: "E-sport",image: "esport.png"},
+            {type: "Ping Pong",image: "pingpong.png"} 
           
-            
-           
-
-        });
+        );
         return { sportObject1 }
     }
 }
