@@ -26,7 +26,6 @@ export default {
         const price = ref();
 
         const addSport = () => {
-            // TODO: bør sjekke om feltene er riktig fylt ut først
             const newSport = { 
                 title: title.value, 
                 price: parseInt( price.value ) 

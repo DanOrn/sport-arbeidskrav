@@ -14,7 +14,10 @@ const sportService = ( function(){
 
     const addSport = ( newSport ) => {
         sports.value.push( newSport );
+
     }
+
+    
 
     return {
         getAll,
