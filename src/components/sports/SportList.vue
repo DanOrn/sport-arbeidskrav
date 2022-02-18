@@ -1,6 +1,6 @@
 <template>
-    <section class="row">
-        <article class="col">
+<section>
+    <article>
          <h3>Favorittsport 2022</h3>
         <sport-item
             v-for="(sport, i) in sports" :key="i"
@@ -11,6 +11,7 @@
         </article>
 
     </section>
+
 </template>
 
 <script>

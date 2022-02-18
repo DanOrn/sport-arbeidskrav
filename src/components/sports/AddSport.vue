@@ -1,5 +1,5 @@
 <template>
-    <section class="mb-5">
+    <section class="container mb-5">
         <h5>Legg til ny sport</h5>
         <hr>
 

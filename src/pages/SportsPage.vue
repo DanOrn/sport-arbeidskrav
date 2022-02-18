@@ -1,8 +1,15 @@
 <template>
-    <section>
+    <section >
         <h3>Sport</h3>
         <add-sport></add-sport>
-        <sport-list></sport-list>
+        <div class="container">
+            <div class="row">
+            <sport-list class="col"></sport-list>
+            <sport-list class="col"></sport-list>
+        </div>
+        </div>
+        
+        
     </section>
 </template>
 
